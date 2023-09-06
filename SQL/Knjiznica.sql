@@ -28,7 +28,7 @@ create table posudba (
 	sifra int not null primary key identity (1,1),
 	posudba_id int not null,
 	clan_id int not null,
-	isbn int not null ,
+	isbn nvarchar(50) not null ,
 	datum_posudbe date not null,
 	datum_vracanja date not null,
 	status_posudbe nvarchar (20) not null
@@ -36,4 +36,3 @@ create table posudba (
 
 alter table posudba add foreign key (clan_id) references clan (sifra);
 alter table posudba add foreign key (isbn) references knjiga(sifra);
-
