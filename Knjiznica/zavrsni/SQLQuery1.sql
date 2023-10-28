@@ -1,8 +1,8 @@
-﻿create table knjiga (
+﻿create table knjiga(
 	sifra int not null primary key identity (1,1),
-	isbn nvarchar (255) not null,
-	naslov nvarchar (100) not null,
-	autor nvarchar (100) not null,
+	isbn varchar(255) not null,
+	naslov varchar(100) not null,
+	autor varchar(100) not null,
 	dostupne_kolicine int not null
 );
 

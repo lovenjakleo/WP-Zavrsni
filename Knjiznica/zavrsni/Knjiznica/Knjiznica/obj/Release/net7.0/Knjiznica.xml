@@ -24,7 +24,7 @@
              <response code="400">Zahtjev nije valjan (BadRequest)</response> 
              <response code="503">Na azure treba dodati IP u firewall</response> 
         </member>
-        <member name="M:KnjiznicaApp.Controllers.KnjiznicaController.Post(KnjiznicaApp.Models.Knjiga)">
+        <member name="M:KnjiznicaApp.Controllers.KnjiznicaController.Post(KnjiznicaApp.Models.DTO.KnjigaDTO)">
              <summary>
              Dodaje knjigu u bazu
              </summary>

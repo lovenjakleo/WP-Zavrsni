@@ -1,5 +1,6 @@
 ﻿using KnjiznicaApp.Data;
 using KnjiznicaApp.Models;
+using KnjiznicaApp.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -107,7 +108,7 @@ namespace KnjiznicaApp.Controllers
         /// <response code="400">Zahtjev nije valjan (BadRequest)</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpPost]
-        public IActionResult Post(Knjiga knjiga)
+        public IActionResult Post(KnjigaDTO dto)
         {
             if (!ModelState.IsValid)
             {
@@ -116,18 +117,25 @@ namespace KnjiznicaApp.Controllers
 
             try
             {
-                _context.Knjiga.Add(knjiga);
+                Knjiga p = new Knjiga()
+                {
+                    isbn = dto.isbn,
+                    naslov = dto.naslov,
+                    autor = dto.autor,
+                    dostupne_kolicine = dto.dostupne_kolicine
+                };
+
+                _context.Knjiga.Add(p);
                 _context.SaveChanges();
-                return StatusCode(StatusCodes.Status201Created, knjiga);
+                dto.sifra = p.Sifra;
+                return Ok(dto);
+
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status503ServiceUnavailable,
-                                   ex.Message);
+                return StatusCode(
+                    StatusCodes.Status503ServiceUnavailable, ex.Message);
             }
-
-
-
         }
 
 
