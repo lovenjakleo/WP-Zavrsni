@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Knjiznica</name>
+    </assembly>
+    <members>
+        <member name="T:KnjiznicaApp.Controllers.KnjiznicaController">
+            <summary>
+            Namijenjeno za CRUD operacije na entitetom knjiga u bazi
+            </summary>
+        </member>
+        <member name="M:KnjiznicaApp.Controllers.KnjiznicaController.Get">
+             <summary>
+             Dohvaća sve knjige iz baze
+             </summary>
+             <remarks>
+             Primjer upita:
+            
+                GET api/v1/Knjiga
+            
+             </remarks>
+             <returns>Knjige u bazi</returns>
+             <response code="200">Sve je u redu</response>
+             <response code="400">Zahtjev nije valjan (BadRequest)</response> 
+             <response code="503">Na azure treba dodati IP u firewall</response> 
+        </member>
+        <member name="M:KnjiznicaApp.Controllers.KnjiznicaController.Post(KnjiznicaApp.Models.Knjiga)">
+             <summary>
+             Dodaje knjigu u bazu
+             </summary>
+             <remarks>
+             Primjer upita:
+            
+                POST api/v1/Knjiga
+                {naslov:"",autor:""}
+            
+             </remarks>
+             <returns>Kreirane knjige u bazi s svim podacima</returns>
+             <response code="200">Sve je u redu</response>
+             <response code="400">Zahtjev nije valjan (BadRequest)</response> 
+             <response code="503">Na azure treba dodati IP u firewall</response> 
+        </member>
+        <member name="M:KnjiznicaApp.Controllers.KnjiznicaController.Put(System.Int32,KnjiznicaApp.Models.Knjiga)">
+             <summary>
+             Mijenja podatke postojeće knjige u bazi
+             </summary>
+             <remarks>
+             Primjer upita:
+            
+                PUT api/v1/knjiga/1
+            
+             {
+              "sifra": 0,
+              "isbn": "Novi isbn",
+              "naslov":"Novi naslov",
+              "autor": ,
+              "dostupne_kolicine": ,
+             }
+            
+             </remarks>
+             <param name="sifra">Šifra knjige koja se mijenja</param>  
+             <returns>Svi poslani podaci od knjige</returns>
+             <response code="200">Sve je u redu</response>
+             <response code="204">Nema u bazi knjige koju želimo promijeniti</response>
+             <response code="415">Nismo poslali JSON</response> 
+             <response code="503">Na azure treba dodati IP u firewall</response> 
+        </member>
+        <member name="M:KnjiznicaApp.Controllers.KnjiznicaController.Delete(System.Int32)">
+             <summary>
+             Briše knjigu iz baze
+             </summary>
+             <remarks>
+             Primjer upita:
+            
+                DELETE api/v1/knjiga/1
+                
+             </remarks>
+             <param name="sifra">Šifra knjige koja se briše</param>  
+             <returns>Odgovor da li je obrisano ili ne</returns>
+             <response code="200">Sve je u redu</response>
+             <response code="204">Nema u bazi knjige koju želimo obrisati</response>
+             <response code="415">Nismo poslali JSON</response> 
+             <response code="503">Na azure treba dodati IP u firewall</response> 
+        </member>
+    </members>
+</doc>

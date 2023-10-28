@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\service-worker.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\service-worker.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\service-worker.js.map",
+      "PackagePath": "staticwebassets\\service-worker.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\css\\main.073c9b0a.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\css\\main.073c9b0a.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.073c9b0a.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\css\\main.4dd8dc0a.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.4dd8dc0a.css"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\css\\main.4dd8dc0a.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.4dd8dc0a.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\css\\main.bf017070.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.bf017070.css"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\css\\main.bf017070.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.bf017070.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\787.ea1a90ba.chunk.js",
+      "PackagePath": "staticwebassets\\static\\js\\787.ea1a90ba.chunk.js"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\787.ea1a90ba.chunk.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\787.ea1a90ba.chunk.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.02799a67.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.02799a67.js"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.02799a67.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.02799a67.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.02799a67.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.02799a67.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.11624394.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.11624394.js"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.11624394.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.11624394.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.11624394.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.11624394.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.b169fb6b.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.b169fb6b.js"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.b169fb6b.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.b169fb6b.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.b169fb6b.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.b169fb6b.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.ed3341c6.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.ed3341c6.js"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.ed3341c6.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.ed3341c6.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\js\\main.ed3341c6.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.ed3341c6.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.103b5fa18196d5665a7e12318285c916.svg"
+    },
+    {
+      "Id": "C:\\Users\\Korisnik\\Documents\\GitHub\\WebProgramiranje\\Knjiznica\\zavrsni\\Knjiznica\\Knjiznica\\wwwroot\\static\\media\\logo.d5d8ce4611dbfa462b4205a01fc08ae9.svg",
+      "PackagePath": "staticwebassets\\static\\media\\logo.d5d8ce4611dbfa462b4205a01fc08ae9.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Knjiznica.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Knjiznica.props",
+      "PackagePath": "build\\Knjiznica.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Knjiznica.props",
+      "PackagePath": "buildMultiTargeting\\Knjiznica.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Knjiznica.props",
+      "PackagePath": "buildTransitive\\Knjiznica.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
